@@ -1,0 +1,1 @@
+print("This is my first code in this Project for Git Set Up")
