@@ -10,6 +10,7 @@ from Selenium.Login import password
 driver = webdriver.Firefox()
 
 driver.get(login_url)
+driver.maximize_window()
 time.sleep(3)
 driver.quit()
 
