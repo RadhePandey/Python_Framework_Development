@@ -7,11 +7,11 @@ from Selenium.Login import login_url
 from Selenium.Login import user_name
 from Selenium.Login import password
 
-driver = webdriver.Firefox()
+browser = webdriver.Firefox()
 
-driver.get(login_url)
-driver.fullscreen_window()
+browser.get(login_url)
+browser.fullscreen_window()
 time.sleep(3)
-driver.quit()
+browser.quit()
 
 
