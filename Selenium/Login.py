@@ -12,8 +12,6 @@ password = "secret_sauce"
 
 driver.get(login_url)
 driver.maximize_window()
-driver.minimize_window()
-driver.fullscreen_window()
 
 username_field = driver.find_element(By.NAME,"user-name")
 username_field.send_keys(user_name)
